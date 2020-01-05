@@ -1,4 +1,4 @@
-# OC2 Server in SnapStore
+# IC2 Server in SnapStore
 
 <h1 align="center">
   <img src="https://gamepedia.cursecdn.com/minecraft_gamepedia/e/e6/IndustrialCraft%C2%B2.png?version=533870d0d8087c7a37ee740603f5ee7a" alt="">
