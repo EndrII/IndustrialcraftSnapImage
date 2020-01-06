@@ -11,8 +11,9 @@
 
 This is snap version of industrial craft 2.2.8.188 server for minecraft 1.12.2. 
   
-  ### IC2 
-  * Before use open ~/snap/ic2/current/server.properties and set your ip addres.
+### IC2 
+  * Before use open ~/snap/ic2/current/server.properties and set your ip address.
+  * Open ~/snap/ic2/current/eula.txt and accept license. just replace "eula=false" to "eula=true" 
   * run ic2
   
   
@@ -32,6 +33,7 @@ This is snap version of industrial craft 2.2.8.188 server for minecraft 1.12.2.
 ## Using
 
 ```
+    open 
     ic2
 ```
 
