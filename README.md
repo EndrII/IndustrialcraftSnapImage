@@ -1,4 +1,6 @@
 # IC2 Server in SnapStore
+[![ic2](https://snapcraft.io//ic2/badge.svg)](https://snapcraft.io/ic2)
+[![ic2](https://snapcraft.io//ic2/trending.svg?name=0)](https://snapcraft.io/ic2)
 
 <h1 align="center">
   <img src="https://gamepedia.cursecdn.com/minecraft_gamepedia/e/e6/IndustrialCraft%C2%B2.png?version=533870d0d8087c7a37ee740603f5ee7a" alt="">
