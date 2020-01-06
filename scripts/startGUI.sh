@@ -6,4 +6,4 @@ if [ ! -f $FORGE_SERVER ]; then
     cp -r $SNAP/serverImage/* $HOME/
 fi
 
-java -Xms128m -Xmx3500m -jar "$FORGE_SERVER" nogui "$0"
+java -Xms128m -Xmx3500m -jar "$FORGE_SERVER" "$0"
