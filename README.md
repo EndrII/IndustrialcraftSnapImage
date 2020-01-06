@@ -7,8 +7,6 @@
   <br />
 </h1>
 
-# Warning this package is still not released in snap-store 
-
 ## Description 
 
 This is snap version of industrial craft 2.2.8.188 server for minecraft 1.12.2. 
