@@ -41,8 +41,10 @@ apps:
   ic2:
     command: start.sh
     plugs:
-      - home
       - network
+      - network-bind
+      - home
+    
     environment:
       LD_LIBRARY_PATH: '$SNAP_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu'
       JAVA_HOME: $SNAP/usr/lib/jvm/java-8-openjdk-amd64
@@ -51,8 +53,10 @@ apps:
   ic2gui:
     command: startGUI.sh
     plugs:
-      - home
       - network
+      - network-bind
+      - home
+      
     environment:
       LD_LIBRARY_PATH: '$SNAP_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu'
       JAVA_HOME: $SNAP/usr/lib/jvm/java-8-openjdk-amd64
