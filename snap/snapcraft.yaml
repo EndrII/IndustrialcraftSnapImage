@@ -8,7 +8,9 @@ grade: stable
 confinement: strict 
 base: core18
 icon: gui/icon.png
-
+architectures:
+  - build-on: amd64
+  
 parts:
   ic2:
     # See 'snapcraft plugins'
