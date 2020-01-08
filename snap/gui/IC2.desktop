@@ -2,7 +2,7 @@
 Version=2.2.8.188
 Name=Industrial Craft 2
 Comment=Industrial Craft 2 Server.
-Exec=ic2.ic2gui
+Exec=sh -c "ic2.ic2gui start"
 Icon=/snap/ic2/current/meta/gui/icon.png
 Terminal=false
 Type=Application
