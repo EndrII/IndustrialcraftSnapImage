@@ -31,12 +31,11 @@ This is snap version of industrial craft 2.2.8.188 server for minecraft 1.12.2.
     snapcraft 
 
 ## Using
+** Example: ic2 command **
 
-```
-    ic2
-    ic2 license
-    ic2 accept
-    ic2 start
-```
+Commands list:
+* start - run the industrial craft 2 server
+* eula - show eula license
+* accept - accept eula license
 
 [Wiki of IC2](IndustrialCraft) 
