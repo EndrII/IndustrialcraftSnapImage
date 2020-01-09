@@ -8,7 +8,7 @@ EULA=$(<eula.txt)
 if [ "$#" -ne 1 ]; then
     echo "HELP"
     echo "Use: ic2 command"
-    echo "Commnads list:"
+    echo "Commands list:"
     echo "start - run the industrial craft 2 server"
     echo "eula - show eula license"
     echo "accept - accept eula license"
