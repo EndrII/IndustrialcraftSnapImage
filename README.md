@@ -13,7 +13,9 @@ This is snap version of industrial craft 2.2.8.188 server for minecraft 1.12.2.
   
 ### IC2 
   * Before use open ~/snap/ic2/current/server.properties and set your ip address.
-  * run ic2
+  * run ic2 accept
+  * run ic2 start
+  * run ic2 or ic2.gui
   
   
 ## Server files locations 
@@ -31,7 +33,7 @@ This is snap version of industrial craft 2.2.8.188 server for minecraft 1.12.2.
     snapcraft 
 
 ## Using
-** Example: ic2 command **
+Example: ic2 ** command **
 
 Commands list:
 * start - run the industrial craft 2 server
