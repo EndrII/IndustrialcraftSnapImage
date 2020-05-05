@@ -59,6 +59,10 @@ apps:
       - network-bind
       - home
       - opengl
+      - desktop
+      - desktop-legacy
+      - wayland
+      - unity7
       
     environment:
       LD_LIBRARY_PATH: '$SNAP_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH:$SNAP/lib:$SNAP/usr/lib:$SNAP/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu'
